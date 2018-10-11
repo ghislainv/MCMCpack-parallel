@@ -134,7 +134,7 @@ dev.off()
 library(snow)
 library(snowfall)
 
-## Setting the number of CPUs to be 3
+## Setting the number of CPUs to be 2
 sfInit(parallel=TRUE, cpus=2)
 
 ## Assigning the R2OpenBUGS library to each CPU
@@ -193,5 +193,3 @@ dev.off()
 ##===========================================================================
 ## End of script
 ##===========================================================================
-
-
